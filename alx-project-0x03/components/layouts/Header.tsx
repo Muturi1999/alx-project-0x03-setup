@@ -14,13 +14,15 @@ const Header: React.FC = () => {
         {/* Button Group */}
         <div className="flex gap-4">
           <Button
-            buttonLabel="Sign In"
-            buttonBackgroundColor="red"
-          />
+                      buttonLabel="Sign In"
+                      buttonBackgroundColor="red" action={function (): void {
+                          throw new Error("Function not implemented.");
+                      } }          />
           <Button
-            buttonLabel="Sign Up"
-            buttonBackgroundColor="blue"
-          />
+                      buttonLabel="Sign Up"
+                      buttonBackgroundColor="blue" action={function (): void {
+                          throw new Error("Function not implemented.");
+                      } }          />
         </div>
       </div>
     </header>
